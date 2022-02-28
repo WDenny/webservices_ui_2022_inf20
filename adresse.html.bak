@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head> 
+<meta charset="UTF-8">
+<title>Adrese</title>
+<link rel="stylesheet"
+href="css/style.css">
+</head>
+<body>
+
+<h1 id="headerAdresse">Rechnungs- und Lieferadresse</h1>
+<form action="php/adresse.php" method="post">
+<input id="vornameAdresse" type="text" placeholder="Vorname" name="vorname" required>
+<input id="nameAdresse" type="text" placeholder="Nachname" name="name" required>
+<input id="postleitzahlAdresse" type="text" placeholder="Postleitzahl" name="postleitzahl" required>
+<input id="stadtAdresse" type="text" placeholder="Stadt" name="stadt" required>
+<input id="straßeAdresse" type="text" placeholder="Straße / Hausnummer" name="straße" required>
+<input id="email" type="text" placeholder="Email" name="email" required>
+<button id="buttonAdresse">Weiter</button>
+</form>
+</body>
+</html>

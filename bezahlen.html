@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Bezahlmittel</title>
+<link rel="stylesheet"
+href="css/style.css">
+</head>
+<body>
+<h1 id="headerAdresse">Zahlungsmittel</h1>
+<form action="php/bezahlen.php" method="post">
+<input id="nameAdresse" type="text" placeholder="IBAN" name="IBAN" required>
+<input id="straßeAdresse" type="text" placeholder="BIC" name="BIC" required>
+<input id="buttonAdressen" type = "submit" name = "submit" value = "Vorkasse Bestellung abschließen">
+</form>
+<form action="php/bezahlen.php" method="post">
+<input id="vornameAdresse" type="text" placeholder="Nummer" name="Nummer" required>
+<input id="postleitzahlAdresse" type="text" placeholder="Ablaufdatum" name="Ablaufdatum" required>
+<input id="email" type="text" placeholder="CCV" name="CCV" required>
+<input id="buttonAdresse" type = "submit" name = "submit" value = "Kreditkarte Bestellung abschließen">
+</form>
+
+</body>
+</html>
